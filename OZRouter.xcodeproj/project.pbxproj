@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A719AA011F3C53C7009B4AB6 /* Router.plist in Resources */ = {isa = PBXBuildFile; fileRef = A719AA001F3C53C7009B4AB6 /* Router.plist */; };
+		A719AA031F3C5552009B4AB6 /* EasyRouterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A719AA021F3C5552009B4AB6 /* EasyRouterParser.swift */; };
+		A719AA061F3C61FD009B4AB6 /* UINavigationController+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A719AA051F3C61FD009B4AB6 /* UINavigationController+Optional.swift */; };
+		A719AA081F3C640D009B4AB6 /* ValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A719AA071F3C640D009B4AB6 /* ValueViewController.swift */; };
+		A7B7D3E21F3C468A00B2DE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7D3E11F3C468A00B2DE8C /* AppDelegate.swift */; };
+		A7B7D3E41F3C468A00B2DE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7D3E31F3C468A00B2DE8C /* ViewController.swift */; };
+		A7B7D3E71F3C468A00B2DE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B7D3E51F3C468A00B2DE8C /* Main.storyboard */; };
+		A7B7D3E91F3C468A00B2DE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B7D3E81F3C468A00B2DE8C /* Assets.xcassets */; };
+		A7B7D3EC1F3C468A00B2DE8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B7D3EA1F3C468A00B2DE8C /* LaunchScreen.storyboard */; };
+		A7B7D3F71F3C468A00B2DE8C /* OZRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7D3F61F3C468A00B2DE8C /* OZRouterTests.swift */; };
+		A7B7D4021F3C468A00B2DE8C /* OZRouterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7D4011F3C468A00B2DE8C /* OZRouterUITests.swift */; };
+		A7B7D4111F3C476400B2DE8C /* EasyRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7D4101F3C476400B2DE8C /* EasyRouter.swift */; };
+		A7B7D4131F3C4AF400B2DE8C /* EasyRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B7D4121F3C4AF400B2DE8C /* EasyRouterProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7B7D3F31F3C468A00B2DE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B7D3D61F3C468A00B2DE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B7D3DD1F3C468A00B2DE8C;
+			remoteInfo = OZRouter;
+		};
+		A7B7D3FE1F3C468A00B2DE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B7D3D61F3C468A00B2DE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7B7D3DD1F3C468A00B2DE8C;
+			remoteInfo = OZRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A719AA001F3C53C7009B4AB6 /* Router.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Router.plist; sourceTree = "<group>"; };
+		A719AA021F3C5552009B4AB6 /* EasyRouterParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRouterParser.swift; sourceTree = "<group>"; };
+		A719AA051F3C61FD009B4AB6 /* UINavigationController+Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Optional.swift"; sourceTree = "<group>"; };
+		A719AA071F3C640D009B4AB6 /* ValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueViewController.swift; sourceTree = "<group>"; };
+		A7B7D3DE1F3C468A00B2DE8C /* OZRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B7D3E11F3C468A00B2DE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7B7D3E31F3C468A00B2DE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7B7D3E61F3C468A00B2DE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7B7D3E81F3C468A00B2DE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7B7D3EB1F3C468A00B2DE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7B7D3ED1F3C468A00B2DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B7D3F21F3C468A00B2DE8C /* OZRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B7D3F61F3C468A00B2DE8C /* OZRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZRouterTests.swift; sourceTree = "<group>"; };
+		A7B7D3F81F3C468A00B2DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B7D3FD1F3C468A00B2DE8C /* OZRouterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZRouterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7B7D4011F3C468A00B2DE8C /* OZRouterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZRouterUITests.swift; sourceTree = "<group>"; };
+		A7B7D4031F3C468A00B2DE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B7D4101F3C476400B2DE8C /* EasyRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRouter.swift; sourceTree = "<group>"; };
+		A7B7D4121F3C4AF400B2DE8C /* EasyRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyRouterProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7B7D3DB1F3C468A00B2DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7D3EF1F3C468A00B2DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7D3FA1F3C468A00B2DE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A719A9FF1F3C53B4009B4AB6 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				A719AA001F3C53C7009B4AB6 /* Router.plist */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		A719AA041F3C61D3009B4AB6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A719AA051F3C61FD009B4AB6 /* UINavigationController+Optional.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A7B7D3D51F3C468A00B2DE8C = {
+			isa = PBXGroup;
+			children = (
+				A7B7D3E01F3C468A00B2DE8C /* OZRouter */,
+				A7B7D3F51F3C468A00B2DE8C /* OZRouterTests */,
+				A7B7D4001F3C468A00B2DE8C /* OZRouterUITests */,
+				A7B7D3DF1F3C468A00B2DE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7B7D3DF1F3C468A00B2DE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7D3DE1F3C468A00B2DE8C /* OZRouter.app */,
+				A7B7D3F21F3C468A00B2DE8C /* OZRouterTests.xctest */,
+				A7B7D3FD1F3C468A00B2DE8C /* OZRouterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7B7D3E01F3C468A00B2DE8C /* OZRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A719AA041F3C61D3009B4AB6 /* Extension */,
+				A7B7D40F1F3C46A600B2DE8C /* EasyRouter */,
+				A719A9FF1F3C53B4009B4AB6 /* Router */,
+				A7B7D3E11F3C468A00B2DE8C /* AppDelegate.swift */,
+				A7B7D3E31F3C468A00B2DE8C /* ViewController.swift */,
+				A719AA071F3C640D009B4AB6 /* ValueViewController.swift */,
+				A7B7D3E51F3C468A00B2DE8C /* Main.storyboard */,
+				A7B7D3E81F3C468A00B2DE8C /* Assets.xcassets */,
+				A7B7D3EA1F3C468A00B2DE8C /* LaunchScreen.storyboard */,
+				A7B7D3ED1F3C468A00B2DE8C /* Info.plist */,
+			);
+			path = OZRouter;
+			sourceTree = "<group>";
+		};
+		A7B7D3F51F3C468A00B2DE8C /* OZRouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7D3F61F3C468A00B2DE8C /* OZRouterTests.swift */,
+				A7B7D3F81F3C468A00B2DE8C /* Info.plist */,
+			);
+			path = OZRouterTests;
+			sourceTree = "<group>";
+		};
+		A7B7D4001F3C468A00B2DE8C /* OZRouterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7D4011F3C468A00B2DE8C /* OZRouterUITests.swift */,
+				A7B7D4031F3C468A00B2DE8C /* Info.plist */,
+			);
+			path = OZRouterUITests;
+			sourceTree = "<group>";
+		};
+		A7B7D40F1F3C46A600B2DE8C /* EasyRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A7B7D4101F3C476400B2DE8C /* EasyRouter.swift */,
+				A7B7D4121F3C4AF400B2DE8C /* EasyRouterProtocol.swift */,
+				A719AA021F3C5552009B4AB6 /* EasyRouterParser.swift */,
+			);
+			name = EasyRouter;
+			path = Router;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7B7D3DD1F3C468A00B2DE8C /* OZRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B7D4061F3C468A00B2DE8C /* Build configuration list for PBXNativeTarget "OZRouter" */;
+			buildPhases = (
+				A7B7D3DA1F3C468A00B2DE8C /* Sources */,
+				A7B7D3DB1F3C468A00B2DE8C /* Frameworks */,
+				A7B7D3DC1F3C468A00B2DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OZRouter;
+			productName = OZRouter;
+			productReference = A7B7D3DE1F3C468A00B2DE8C /* OZRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7B7D3F11F3C468A00B2DE8C /* OZRouterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B7D4091F3C468A00B2DE8C /* Build configuration list for PBXNativeTarget "OZRouterTests" */;
+			buildPhases = (
+				A7B7D3EE1F3C468A00B2DE8C /* Sources */,
+				A7B7D3EF1F3C468A00B2DE8C /* Frameworks */,
+				A7B7D3F01F3C468A00B2DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B7D3F41F3C468A00B2DE8C /* PBXTargetDependency */,
+			);
+			name = OZRouterTests;
+			productName = OZRouterTests;
+			productReference = A7B7D3F21F3C468A00B2DE8C /* OZRouterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7B7D3FC1F3C468A00B2DE8C /* OZRouterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B7D40C1F3C468A00B2DE8C /* Build configuration list for PBXNativeTarget "OZRouterUITests" */;
+			buildPhases = (
+				A7B7D3F91F3C468A00B2DE8C /* Sources */,
+				A7B7D3FA1F3C468A00B2DE8C /* Frameworks */,
+				A7B7D3FB1F3C468A00B2DE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7B7D3FF1F3C468A00B2DE8C /* PBXTargetDependency */,
+			);
+			name = OZRouterUITests;
+			productName = OZRouterUITests;
+			productReference = A7B7D3FD1F3C468A00B2DE8C /* OZRouterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7B7D3D61F3C468A00B2DE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cmdt;
+				TargetAttributes = {
+					A7B7D3DD1F3C468A00B2DE8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A7B7D3F11F3C468A00B2DE8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7B7D3DD1F3C468A00B2DE8C;
+					};
+					A7B7D3FC1F3C468A00B2DE8C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7B7D3DD1F3C468A00B2DE8C;
+					};
+				};
+			};
+			buildConfigurationList = A7B7D3D91F3C468A00B2DE8C /* Build configuration list for PBXProject "OZRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7B7D3D51F3C468A00B2DE8C;
+			productRefGroup = A7B7D3DF1F3C468A00B2DE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7B7D3DD1F3C468A00B2DE8C /* OZRouter */,
+				A7B7D3F11F3C468A00B2DE8C /* OZRouterTests */,
+				A7B7D3FC1F3C468A00B2DE8C /* OZRouterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7B7D3DC1F3C468A00B2DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B7D3EC1F3C468A00B2DE8C /* LaunchScreen.storyboard in Resources */,
+				A7B7D3E91F3C468A00B2DE8C /* Assets.xcassets in Resources */,
+				A7B7D3E71F3C468A00B2DE8C /* Main.storyboard in Resources */,
+				A719AA011F3C53C7009B4AB6 /* Router.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7D3F01F3C468A00B2DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7D3FB1F3C468A00B2DE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7B7D3DA1F3C468A00B2DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A719AA031F3C5552009B4AB6 /* EasyRouterParser.swift in Sources */,
+				A719AA061F3C61FD009B4AB6 /* UINavigationController+Optional.swift in Sources */,
+				A7B7D3E41F3C468A00B2DE8C /* ViewController.swift in Sources */,
+				A7B7D4111F3C476400B2DE8C /* EasyRouter.swift in Sources */,
+				A7B7D4131F3C4AF400B2DE8C /* EasyRouterProtocol.swift in Sources */,
+				A719AA081F3C640D009B4AB6 /* ValueViewController.swift in Sources */,
+				A7B7D3E21F3C468A00B2DE8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7D3EE1F3C468A00B2DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B7D3F71F3C468A00B2DE8C /* OZRouterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7B7D3F91F3C468A00B2DE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B7D4021F3C468A00B2DE8C /* OZRouterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7B7D3F41F3C468A00B2DE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B7D3DD1F3C468A00B2DE8C /* OZRouter */;
+			targetProxy = A7B7D3F31F3C468A00B2DE8C /* PBXContainerItemProxy */;
+		};
+		A7B7D3FF1F3C468A00B2DE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7B7D3DD1F3C468A00B2DE8C /* OZRouter */;
+			targetProxy = A7B7D3FE1F3C468A00B2DE8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7B7D3E51F3C468A00B2DE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B7D3E61F3C468A00B2DE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7B7D3EA1F3C468A00B2DE8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7B7D3EB1F3C468A00B2DE8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7B7D4041F3C468A00B2DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7B7D4051F3C468A00B2DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7B7D4071F3C468A00B2DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OZRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmdt.OZRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7B7D4081F3C468A00B2DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OZRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmdt.OZRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7B7D40A1F3C468A00B2DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OZRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmdt.OZRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OZRouter.app/OZRouter";
+			};
+			name = Debug;
+		};
+		A7B7D40B1F3C468A00B2DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OZRouterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmdt.OZRouterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OZRouter.app/OZRouter";
+			};
+			name = Release;
+		};
+		A7B7D40D1F3C468A00B2DE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OZRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmdt.OZRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OZRouter;
+			};
+			name = Debug;
+		};
+		A7B7D40E1F3C468A00B2DE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OZRouterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmdt.OZRouterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OZRouter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7B7D3D91F3C468A00B2DE8C /* Build configuration list for PBXProject "OZRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B7D4041F3C468A00B2DE8C /* Debug */,
+				A7B7D4051F3C468A00B2DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B7D4061F3C468A00B2DE8C /* Build configuration list for PBXNativeTarget "OZRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B7D4071F3C468A00B2DE8C /* Debug */,
+				A7B7D4081F3C468A00B2DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B7D4091F3C468A00B2DE8C /* Build configuration list for PBXNativeTarget "OZRouterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B7D40A1F3C468A00B2DE8C /* Debug */,
+				A7B7D40B1F3C468A00B2DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B7D40C1F3C468A00B2DE8C /* Build configuration list for PBXNativeTarget "OZRouterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B7D40D1F3C468A00B2DE8C /* Debug */,
+				A7B7D40E1F3C468A00B2DE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7B7D3D61F3C468A00B2DE8C /* Project object */;
+}
