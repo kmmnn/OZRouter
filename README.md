@@ -33,38 +33,15 @@
     
       func receiver(parameters: Dictionary<String, Any>?) -> Bool {
       
-         guard let reservationNo = parameters?["reservationNo"] as? String,
-         
-              let vehicleId = parameters?["vehicleId"] as? String else {
+         guard let deviceNo = parameters?["deviceNo"] as? String else {
               
                   return false
                   
           }
           
-            self.reservationNo = reservationNo
-          
-            self.vehicleId = vehicleId
-          
-            if let isBind = parameters?["isBind"] as? Bool {
-          
-                self.isBind = isBind
-              
-                let deviceNo = parameters?["deviceNo"] as? String
-              
-                if isBind && deviceNo == nil{
-              
-                  return false
-                }
-              
-                if isBind && deviceNo != nil{
-              
-                    self.deviceNo = deviceNo!
-                  
-                }
-              
-            }
-          
-            return true
+           self.deviceNo = deviceNo
+           
+           return true
           
        }
       
