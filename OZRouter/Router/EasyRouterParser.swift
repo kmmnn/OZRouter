@@ -21,6 +21,8 @@ struct EasyRouterParser {
             guard let url = routerItem.key as? String, let id = routerItem.value as? String else {
                 continue
             }
+            //            if routerItem.value
+            
             var storyBoard = ""
             var storyBoardID = ""
             let ids = id.components(separatedBy: ",")
