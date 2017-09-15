@@ -13,8 +13,7 @@
 
 
 ### 获取:  通过gain方法获取ViewController 
-
-    例1:
+    例1:
 
         let homeViewController = Router.gain("myApp://Home")
     例2:
