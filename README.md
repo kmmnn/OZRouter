@@ -4,10 +4,9 @@
             
 
 ### 注册:  在路由表Router.plist中以 path : StoryBoardName,StoryBoardID 的形式注册路由
-
-    例1:
+    例1:
         myApp://Login      User,Login
-    例2:
+    例2:
         myApp://Home       Home
 
         注: StoryBoard入口可忽略StoryBoardID
