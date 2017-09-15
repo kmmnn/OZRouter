@@ -38,10 +38,10 @@
                   return false
                   
           }
-          
-           self.deviceNo = deviceNo
-           
-           return true
+      
+         self.deviceNo = deviceNo
+      
+         return true
           
        }
       
